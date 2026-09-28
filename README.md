@@ -2,7 +2,8 @@
 
 **An interactive case study in cohort analysis. Explore cohorts, see why "overall retention" lies, and investigate a retention drop step by step.**
 
-Live demo: `https://dhavalk21.github.io/cohort-detective/`
+### 🔗 Live Link: [View Interactive App Here](https://dhavalk21.github.io/cohort-detective/)
+
 
 <!-- Add a screenshot or GIF here: docs/cohort-detective.gif -->
 
