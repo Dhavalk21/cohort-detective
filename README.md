@@ -50,30 +50,3 @@ simulator.js module 2
 case.js      module 3
 app.js       tab routing
 ```
-
-## Run it locally
-
-```bash
-python3 -m http.server 8000   # then open http://localhost:8000
-```
-
-(Opening `index.html` directly also works.)
-
-## Deploy to GitHub Pages
-
-```bash
-git init
-git add .
-git commit -m "Cohort Detective"
-git branch -M main
-git remote add origin https://github.com/dhavalk21/cohort-detective.git
-git push -u origin main
-```
-
-Then in the repo: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)`**.
-
-## Possible next steps
-
-- **Bring your own data:** upload a CSV (`user_id`, `signup_date`, `activity_date`) and build the cohort table in the browser.
-- Weekly cohorts and a "reach first value within N days" behavioural cohort.
-- A second guided case (conversion drop, or a channel-quality question).
