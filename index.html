@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cohort Detective</title>
+  <meta name="description" content="An interactive cohort-analysis case study: explore synthetic SaaS cohorts, see why overall retention lies, and investigate a retention drop step by step.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Interactive case study</p>
+      <h1>Cohort Detective</h1>
+      <p class="sub">Cohort analysis as an investigation, not a dashboard.</p>
+      <ol class="flow" aria-label="Framework">
+        <li>Group</li><li>Track</li><li>Compare</li><li>Explain</li><li>Act</li>
+      </ol>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Modules">
+    <div class="wrap">
+      <a href="#explorer" data-tab="explorer"><b>1</b> Explore cohorts</a>
+      <a href="#mix" data-tab="mix"><b>2</b> The mix trap</a>
+      <a href="#case" data-tab="case"><b>3</b> Guided case</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section id="explorer" class="panel" aria-live="polite"></section>
+    <section id="mix" class="panel" aria-live="polite"></section>
+    <section id="case" class="panel"></section>
+  </main>
+
+  <footer class="wrap">
+    <p>All data is synthetic and generated from a fixed seed in <code>data.js</code>; the numbers are identical on every load. Built by <a href="https://github.com/dhavalk21">Dhaval</a>. No backend, no tracking.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="ui.js"></script>
+  <script src="explorer.js"></script>
+  <script src="simulator.js"></script>
+  <script src="case.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
